@@ -1,11 +1,6 @@
-import { Lato, Fragment_Mono } from 'next/font/google';
+import { Lusitana } from 'next/font/google';
 
-export const lato = Lato({
+export const lusitana = Lusitana({
   subsets: ['latin'],
-  weight: ['700'],
-});
-
-export const fragmentMono = Fragment_Mono({
-  subsets: ['latin'],
-  weight: ['400'],
+  weight: ['400', '700'],
 });
